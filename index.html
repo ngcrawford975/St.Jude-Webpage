@@ -6,14 +6,16 @@
     <title>Fondue for a Cause | The Melting Pot & St. Jude</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body id="top">
 
+    <!-- Fondue Menu Navigation -->
     <nav class="mobile-nav">
         <select onchange="location = this.value;">
-            <option value="#top">Navigate...</option>
+            <option value="#top">Fondue Menu</option>
             <option value="#why-stjude">Why St. Jude Matters</option>
             <option value="#why-meltingpot">Why The Melting Pot Supports St. Jude</option>
-            <option value="#server-stories">Meet the Servers Behind the Mission</option>
+            <option value="#server-stories">Why It Matters to Us</option>
             <option value="#impact-stats">Our Impact</option>
             <option value="#donation-impact">Donation Impact</option>
             <option value="#how-help">How You Can Help</option>
@@ -43,12 +45,29 @@
     </section>
 
     <section class="server-stories" id="server-stories">
-        <h2>Meet the Servers Behind the Mission</h2>
-        <div class="stories-container"></div>
+        <h2>Why It Matters to Us</h2>
+
+        <div class="stories-container">
+
+            <!-- 11 Server Cards (replace names as needed) -->
+            <div class="server-card" data-server="server1"><h3>Server Name 1</h3></div>
+            <div class="server-card" data-server="server2"><h3>Server Name 2</h3></div>
+            <div class="server-card" data-server="server3"><h3>Server Name 3</h3></div>
+            <div class="server-card" data-server="server4"><h3>Server Name 4</h3></div>
+            <div class="server-card" data-server="server5"><h3>Server Name 5</h3></div>
+            <div class="server-card" data-server="server6"><h3>Server Name 6</h3></div>
+            <div class="server-card" data-server="server7"><h3>Server Name 7</h3></div>
+            <div class="server-card" data-server="server8"><h3>Server Name 8</h3></div>
+            <div class="server-card" data-server="server9"><h3>Server Name 9</h3></div>
+            <div class="server-card" data-server="server10"><h3>Server Name 10</h3></div>
+            <div class="server-card" data-server="server11"><h3>Server Name 11</h3></div>
+
+        </div>
     </section>
 
     <section class="impact-stats" id="impact-stats">
         <h2>Our Impact at The Melting Pot Wilmington</h2> 
+
         <p class="intro">
             Every year, our servers and guests come together to support St. Jude Children’s Research Hospital.
             Thanks to your generosity, we’re making a real difference in the lives of children and families.
@@ -72,42 +91,15 @@
     <section class="donation-impact" id="donation-impact">
         <h2>What Your Gift Means for a St. Jude Family</h2>
         <div class="impact-grid">
-            <div class="impact-tier">
-                <h3>$20 Donation</h3>
-                <p>Provides a family with a warm meal during their hospital stay.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$50 Donation</h3>
-                <p>Covers a day of housing for parents staying near their child’s bedside.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$100 Donation</h3>
-                <p>Helps fund essential lab supplies used in life‑saving research.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$150 Donation</h3>
-                <p>Supports art and play therapy sessions that bring comfort and joy to young patients.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$200 Donation</h3>
-                <p>Provides a day’s worth of meals for a family of four staying at St. Jude.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$500 Donation</h3>
-                <p>Funds advanced imaging that helps doctors track a child’s progress during treatment.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$750 Donation</h3>
-                <p>Supports a week of housing for families traveling from out of state for care.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$2,500 Donation</h3>
-                <p>Helps cover the cost of chemotherapy for a child fighting cancer.</p>
-            </div>
-            <div class="impact-tier">
-                <h3>$5,000 Donation</h3>
-                <p>Funds a full month of treatment, meals, and housing for a child and their family.</p>
-            </div>
+            <div class="impact-tier"><h3>$20 Donation</h3><p>Provides a family with a warm meal during their hospital stay.</p></div>
+            <div class="impact-tier"><h3>$50 Donation</h3><p>Covers a day of housing for parents staying near their child’s bedside.</p></div>
+            <div class="impact-tier"><h3>$100 Donation</h3><p>Helps fund essential lab supplies used in life‑saving research.</p></div>
+            <div class="impact-tier"><h3>$150 Donation</h3><p>Supports art and play therapy sessions that bring comfort and joy to young patients.</p></div>
+            <div class="impact-tier"><h3>$200 Donation</h3><p>Provides a day’s worth of meals for a family of four staying at St. Jude.</p></div>
+            <div class="impact-tier"><h3>$500 Donation</h3><p>Funds advanced imaging that helps doctors track a child’s progress during treatment.</p></div>
+            <div class="impact-tier"><h3>$750 Donation</h3><p>Supports a week of housing for families traveling from out of state for care.</p></div>
+            <div class="impact-tier"><h3>$2,500 Donation</h3><p>Helps cover the cost of chemotherapy for a child fighting cancer.</p></div>
+            <div class="impact-tier"><h3>$5,000 Donation</h3><p>Funds a full month of treatment, meals, and housing for a child and their family.</p></div>
         </div>
     </section>
 
@@ -124,40 +116,19 @@
     <section class="section" id="where-donation-goes">
         <h2>Where Your Donation Goes</h2>
         <div class="money-grid">
-            <div class="money-card">
-                <div class="percent">78%</div>
-                <p>Treatment, care, and family support.</p>
-            </div>
-            <div class="money-card">
-                <div class="percent">18%</div>
-                <p>Research and clinical trials.</p>
-            </div>
-            <div class="money-card">
-                <div class="percent">4%</div>
-                <p>Administrative and fundraising costs.</p>
-            </div>
+            <div class="money-card"><div class="percent">78%</div><p>Treatment, care, and family support.</p></div>
+            <div class="money-card"><div class="percent">18%</div><p>Research and clinical trials.</p></div>
+            <div class="money-card"><div class="percent">4%</div><p>Administrative and fundraising costs.</p></div>
         </div>
     </section>
 
     <section class="section" id="timeline">
         <h2>St. Jude Breakthrough Timeline</h2>
         <div class="timeline">
-            <div class="timeline-card">
-                <div class="year">1962</div>
-                <p>St. Jude Children’s Research Hospital opens.</p>
-            </div>
-            <div class="timeline-card">
-                <div class="year">1996</div>
-                <p>Major breakthrough in leukemia treatment.</p>
-            </div>
-            <div class="timeline-card">
-                <div class="year">2012</div>
-                <p>Global outreach expands to improve worldwide survival rates.</p>
-            </div>
-            <div class="timeline-card">
-                <div class="year">2020s</div>
-                <p>Cutting‑edge gene therapy research advances cures.</p>
-            </div>
+            <div class="timeline-card"><div class="year">1962</div><p>St. Jude Children’s Research Hospital opens.</p></div>
+            <div class="timeline-card"><div class="year">1996</div><p>Major breakthrough in leukemia treatment.</p></div>
+            <div class="timeline-card"><div class="year">2012</div><p>Global outreach expands to improve worldwide survival rates.</p></div>
+            <div class="timeline-card"><div class="year">2020s</div><p>Cutting‑edge gene therapy research advances cures.</p></div>
         </div>
     </section>
 
@@ -166,6 +137,16 @@
         <p>The Melting Pot • Fondue for a Cause</p>
     </footer>
 
+    <!-- Server Modal -->
+    <div id="serverModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalName"></h3>
+            <ul id="modalAnswers"></ul>
+        </div>
+    </div>
+
     <script src="script.js"></script>
+
 </body>
 </html>

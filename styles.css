@@ -300,3 +300,78 @@ footer.footer {
     cursor: pointer;
 }
 
+.server-card {
+    background: var(--mp-light);
+    border: 1px solid var(--mp-gold);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.server-card:hover {
+    background: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.modal-content {
+    background: var(--mp-light);
+    border: 2px solid var(--mp-gold);
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+
+.close-modal {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 1.8rem;
+    color: var(--mp-red);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#modalName {
+    font-family: "Georgia", serif;
+    color: var(--mp-red);
+    border-bottom: 2px solid var(--mp-gold);
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+#modalAnswers {
+    list-style: none;
+    padding: 0;
+}
+
+#modalAnswers li {
+    background: var(--mp-red);
+    color: var(--text-light);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
