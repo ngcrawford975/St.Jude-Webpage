@@ -30,13 +30,13 @@ const servers = {
         ]
     },
     server4: {
-        name: "Server Name 4",
+        name: "Gage",
         answers: [
-            "Answer 1",
-            "Answer 2",
-            "Answer 3",
-            "Answer 4",
-            "Answer 5"
+            "My name is Gage, and I have been a part of the Melting Pot family for over 5 years now.",
+            "Supporting St. Jude matters to me because it is one of the last few things left that truly bring people together. Most times, it is hard to find common ground with a great number of people, but St. Jude is one of those things that everyone can get behind and support. It's bigger than all of us.",
+            "If I had to choose one thing that inspires me most about the family's and children, it would have to be the sheer strength and resilience that they show in the face of adversity. The ability to keep going, to keep fighting, and to keep smiling despite the challenges they face",
+            "My favorite memory of fundraising for St. Jude at the Melting Pot would have to be the feeling during that time of year. Knowing that for a few months out of the year, I'm not just clocking in and out of work, I'm becoming a part of something huge, and making a true difference for families I'll never meet.",
+            "I raise money for St. Jude because no one deserves it more."
         ]
     },
     server5: {
