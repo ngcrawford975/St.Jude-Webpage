@@ -271,3 +271,32 @@ footer.footer {
     color: var(--text-dark);
     line-height: 1.5;
 }
+
+.mobile-nav {
+    width: 100%;
+    background: var(--mp-dark);
+    padding: 12px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 3px solid var(--mp-gold);
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-nav select {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-family: "Georgia", serif;
+    color: var(--mp-red);
+    background: var(--mp-light);
+    border: 2px solid var(--mp-gold);
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    appearance: none;
+    cursor: pointer;
+}
+

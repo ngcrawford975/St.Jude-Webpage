@@ -6,7 +6,21 @@
     <title>Fondue for a Cause | The Melting Pot & St. Jude</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="top">
+
+    <nav class="mobile-nav">
+        <select onchange="location = this.value;">
+            <option value="#top">Navigate...</option>
+            <option value="#why-stjude">Why St. Jude Matters</option>
+            <option value="#why-meltingpot">Why The Melting Pot Supports St. Jude</option>
+            <option value="#server-stories">Meet the Servers Behind the Mission</option>
+            <option value="#impact-stats">Our Impact</option>
+            <option value="#donation-impact">Donation Impact</option>
+            <option value="#how-help">How You Can Help</option>
+            <option value="#where-donation-goes">Where Your Donation Goes</option>
+            <option value="#timeline">Breakthrough Timeline</option>
+        </select>
+    </nav>
 
     <header class="hero">
         <div class="hero-content">
@@ -16,27 +30,25 @@
         </div>
     </header>
 
-    <section class="why-stjude">
+    <section class="why-stjude" id="why-stjude">
         <h2>Why St. Jude Matters</h2>
         <p>St. Jude Children’s Research Hospital treats children with cancer and life‑threatening diseases at no cost to families. Their groundbreaking research is shared worldwide, helping improve treatments and outcomes everywhere.</p>
         <p>Your support helps fund treatment, housing, meals, and research that gives children a chance to grow, heal, and thrive.</p>
     </section>
 
-    <section class="why-meltingpot">
+    <section class="why-meltingpot" id="why-meltingpot">
         <h2>Why The Melting Pot Supports St. Jude</h2>
         <p>The Melting Pot is built on togetherness — sharing a pot, sharing a moment. St. Jude is built on community support — no child fights alone.</p>
         <p>Every year, our guests and team unite to make a meaningful impact. We believe every shared meal can spark something bigger: comfort, connection, and compassion.</p>
     </section>
 
-    <section class="server-stories">
-        <h2>Why It Matters to Us</h2>
-        <div class="stories-container">
-        </div>
+    <section class="server-stories" id="server-stories">
+        <h2>Meet the Servers Behind the Mission</h2>
+        <div class="stories-container"></div>
     </section>
 
-    <section class="impact-stats">
-        <h2>Our Impact at The Melting Pot Wilmington</h2>
-
+    <section class="impact-stats" id="impact-stats">
+        <h2>Our Impact at The Melting Pot Wilmington</h2> 
         <p class="intro">
             Every year, our servers and guests come together to support St. Jude Children’s Research Hospital.
             Thanks to your generosity, we’re making a real difference in the lives of children and families.
@@ -57,7 +69,7 @@
         </div>
     </section>
 
-    <section class="donation-impact">
+    <section class="donation-impact" id="donation-impact">
         <h2>What Your Gift Means for a St. Jude Family</h2>
         <div class="impact-grid">
             <div class="impact-tier">
@@ -99,7 +111,7 @@
         </div>
     </section>
 
-    <section class="how-help">
+    <section class="how-help" id="how-help">
         <h2>How You Can Help</h2>
         <ul>
             <li>Add a donation to your check</li>
@@ -109,7 +121,7 @@
         </ul>
     </section>
 
-    <section class="section">
+    <section class="section" id="where-donation-goes">
         <h2>Where Your Donation Goes</h2>
         <div class="money-grid">
             <div class="money-card">
@@ -127,7 +139,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="timeline">
         <h2>St. Jude Breakthrough Timeline</h2>
         <div class="timeline">
             <div class="timeline-card">
