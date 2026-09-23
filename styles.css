@@ -375,3 +375,136 @@ footer.footer {
     margin: 10px 0;
     border-radius: 6px;
 }
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+}
+
+/* Modal content box */
+.modal-content {
+    background: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+
+    /* ⭐ Scrollability */
+    max-height: 70vh;      /* keeps modal inside screen */
+    overflow-y: auto;      /* enables vertical scrolling */
+}
+
+/* Close button */
+.close-modal {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Phones */
+@media (max-width: 600px) {
+
+    header.hero {
+        padding: 40px 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .hero-content .tagline {
+        font-size: 1.3rem;
+    }
+
+    section {
+        margin: 40px auto;
+        padding: 0 15px;
+    }
+
+    .server-stories .stories-container,
+    .impact-grid,
+    .donation-impact .impact-grid,
+    .money-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-height: 80vh;
+        padding: 20px;
+    }
+}
+
+/* Tablets & Laptops */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    header.hero {
+        padding: 60px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
+    }
+
+    section {
+        padding: 0 25px;
+    }
+
+    .server-stories .stories-container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .modal-content {
+        max-width: 600px;
+        max-height: 75vh;
+    }
+}
+
+/* Large Screens & Desktop Monitors */
+@media (min-width: 1024px) {
+
+    body {
+        font-size: 1.1rem;
+    }
+
+    header.hero {
+        padding: 100px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.4rem;
+    }
+
+    section {
+        max-width: 1100px;
+    }
+
+    .impact-stats,
+    .donation-impact {
+        max-width: 1100px;
+    }
+
+    .modal-content {
+        max-width: 600px;
+    }
+}
