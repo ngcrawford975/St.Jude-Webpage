@@ -52,13 +52,13 @@ document.addEventListener("DOMContentLoaded", () => {
             ]
         },
         server6: {
-            name: "Server Name 6",
+            name: "Ryleigh",
             answers: [
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                "Answer 5"
+                "My name is Ryleigh and I have been a part of the Melting Pot family for 2 1/2 years.",
+                "Supporting St. Jude matters to me because every child deserves hope, healing, and the chance to simply be a kid.",
+                "I am inspired by their strength and positivity through life's toughest challenges.",
+                "My favorite memory from fundraising at The Melting Pot is seeing guests come together to support such an important cause and knowing that every donation makes a difference.",
+                "I raise money for St. Jude because small acts of kindness can change a child's life."
             ]
         },
         server7: {
@@ -72,33 +72,32 @@ document.addEventListener("DOMContentLoaded", () => {
             ]
         },
         server8: {
-            name: "Server Name 8",
+            name: "Max",
             answers: [
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                "Answer 5"
+                "My name is Max, and I have been with the Melting Pot for 6 months now.",
+                "St. Jude matters to me personally because my cousin, who I lived with and was very close to, had Duchenne muscular dystrophy. Although he did not receive treatment at St. Jude, many of th things he experienced was very similar to what these kids face, and he lived with his condition throughout his life. ",
+                "What inspires me most about these kids is that, even while facing something so devastating, they can still smile, laugh, and find reasons to love life. I believe that laughter and genuine smiles are some of the purest things a person can experience. Knowing that St. Jude helps provide children with opportunities to experience those moments, despite everything they are going through, makes ths cause especially personal to me.",
+                "I reaise money for St. Jude because I believe they care about the children as whole people, not only their physical health, but also their emotional and mental well-being. My cousin was such a kind soul, and evenwith everything his condition put him through, he continued to smile and bring joy to the people around him.",
             ]
         },
         server9: {
-            name: "Server Name 9",
+            name: "Adam",
             answers: [
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                "Answer 5"
+                "My name is Adam, and I have been part of The Melting Pot family for about 3 months.",
+                "Supporting St. Jude matters to me because almost every family has been affected by a serious or terminal illness in some way, including my own. Going through something like that is already incredibly difficult, and the last thing families should have to worry about is how they're going to pay for treatment. Knowing that St. Jude helps relieve that financial burden so families can focus on their child is something I find really meaningful.",
+                "What inspires me most is their ability to keep going through situations that most people can't even imagine facing. Despite everything they are dealing with, they continue to stay positive, support one another, and keep moving forward. That kind of strength and determination is something I really admire.",
+                "My family has experienced the impact that serious illness can have on loved ones, so I understand how overwhelming those situations can be. Seeing an organization like St. Jude step in to help families focus on their child is one of the reasons this cause means so much to me.",
+                "I raise money for St. Jude because no family should have to choose between caring for their child and worrying about the cost of treatment during one of the most difficult times in their lives."
             ]
         },
         server10: {
-            name: "Server Name 10",
+            name: "Allie",
             answers: [
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                "Answer 5"
+                "My name is Allie, and I’ve been part of The Melting Pot family since July 2026",
+                "Supporting St. Jude is important to me because every child deserves the opportunity to receive the care they need, regardless of their family’s financial situation. Even though I don’t have a personal connection to St. Jude, I’m grateful to be part of something that helps make a meaningful difference for children and their families.",
+                "What inspires me most is the strength of the children and their families as they go through something so difficult. I don’t have a personal experience with St. Jude, but being able to contribute to a cause that supports these families is something I’m proud to be a part of.",
+                "Since I’m new to The Melting Pot, I’m most excited to experience my first St. Jude fundraising campaign and see our team and guests come together to support such an important cause. I’m excited to be part of something that brings our restaurant community together while making a difference.",
+                "I rais money for St. Jude because I want to be part of something that gives children and their families hope and support when they need it most."
             ]
         },
         server11: {
