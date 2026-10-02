@@ -28,7 +28,7 @@ h1, h2 {
 header.hero {
     background: transparent;
     color: var(--text-dark);
-    padding: 80px 20px;
+    padding: 140px 20px;
     text-align: center;
     border-bottom: 6px solid var(--mp-red);
 }
@@ -376,32 +376,6 @@ footer.footer {
     border-radius: 6px;
 }
 
-.modal {
-    display: none; 
-    position: fixed;
-    z-index: 9999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    backdrop-filter: blur(3px);
-}
-
-/* Modal content box */
-.modal-content {
-    background: #fff;
-    margin: 5% auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    border-radius: 10px;
-
-    /* ⭐ Scrollability */
-    max-height: 70vh;      /* keeps modal inside screen */
-    overflow-y: auto;      /* enables vertical scrolling */
-}
-
 /* Close button */
 .close-modal {
     float: right;
@@ -507,4 +481,92 @@ footer.footer {
     .modal-content {
         max-width: 600px;
     }
+}
+
+.donate-with-us {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.donate-collage {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.donate-collage img {
+    width: 30%;
+    max-width: 250px;
+    border-radius: 10px;
+    display: block;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.hamburger-icon {
+    width: 42px;
+    height: 42px;
+    background: var(--mp-dark);
+    color: var(--mp-gold);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.hamburger-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    background: var(--mp-light);
+    border: 2px solid var(--mp-gold);
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hamburger-dropdown a {
+    display: block;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-family: "Georgia", serif;
+    color: var(--mp-red);
+    text-decoration: none;
+    border-bottom: 1px solid var(--mp-gold);
+}
+
+.hamburger-dropdown a:last-child {
+    border-bottom: none;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.top-photo-banner {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.top-photo-banner img {
+    width: 45%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
