@@ -61,6 +61,10 @@ section {
     border-top: 1px solid var(--mp-gold);
 }
 
+section p {
+    color: var(--mp-light);
+}
+
 section ul {
     list-style: none;
     padding: 0;
@@ -91,7 +95,7 @@ section ul li {
 }
 
 .money-card {
-    background: #fff;
+    background: #5c5757;
     padding: 25px;
     border-radius: 10px;
     border: 1px solid var(--mp-gold);
@@ -121,7 +125,7 @@ section ul li {
 
 .timeline-card {
     min-width: 250px;
-    background: #fff;
+    background: #5c5757;
     padding: 25px;
     border-radius: 10px;
     border: 1px solid var(--mp-gold);
@@ -211,7 +215,7 @@ section ul li {
 
 footer.footer {
     background: var(--mp-dark);
-    color: var(--mp-gold);
+    color: var(--text-light);
     text-align: center;
     padding: 40px 20px;
     margin-top: 60px;
@@ -316,7 +320,6 @@ footer.footer {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-
 .modal {
     display: none;
     position: fixed;
@@ -326,11 +329,11 @@ footer.footer {
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-
 
 .modal-content {
     background: var(--mp-light);
@@ -341,8 +344,11 @@ footer.footer {
     width: 100%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     position: relative;
-}
 
+    /* Scrollability */
+    max-height: 70vh;
+    overflow-y: auto;
+}
 
 .close-modal {
     position: absolute;
@@ -376,14 +382,6 @@ footer.footer {
     border-radius: 6px;
 }
 
-/* Close button */
-.close-modal {
-    float: right;
-    font-size: 28px;
-    cursor: pointer;
-}
-
-/* Phones */
 @media (max-width: 600px) {
 
     header.hero {
@@ -421,7 +419,6 @@ footer.footer {
     }
 }
 
-/* Tablets & Laptops */
 @media (min-width: 600px) and (max-width: 1024px) {
 
     header.hero {
@@ -450,7 +447,6 @@ footer.footer {
     }
 }
 
-/* Large Screens & Desktop Monitors */
 @media (min-width: 1024px) {
 
     body {
@@ -569,4 +565,12 @@ footer.footer {
     border-radius: 10px;
     display: block;
     box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+body {
+    background-image: url("media/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
